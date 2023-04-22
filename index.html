@@ -46,6 +46,11 @@
     
                 <h1 class="mb-4">COSE DA FARE</h1>
 
+                <div class="input-group mb-4">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Insert Task" v-model="TaskText">
+                    <button class="btn btn-outline-secondary" type="button" @click="InserTask">Aggiungi</button>
+                </div>
+
                 <ul class="">
 
                     <li v-for="(item, index) in todos" :key="index" class="mb-2 d-flex justify-content-between">    
