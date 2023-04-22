@@ -18,7 +18,19 @@ body {
 
 
 
-h1 , h2, h4, div{
-    color: var(--color-4);
+main {
+    color: var(--color-5);
 }
 
+ ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ ul {
+    margin: 0;
+    padding: 0;
+ }
+
+ 
