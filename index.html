@@ -55,7 +55,8 @@
 
                     <li v-for="(item, index) in todos" :key="index" class="mb-2 d-flex justify-content-between">    
 
-                       <p :class="{ 'text-decoration-line-through': item.done }">{{ todos[index].text }} </p>
+                       <p :class="{ 'text-decoration-line-through': item.done }" @click="ChangeValue(index)">{{ todos[index].text }} </p>
+                       
                        <i class="fa-solid fa-xmark ms-4" style="color: #262626;" @click="DeleteTask(index)"></i>         
                     </li>
 

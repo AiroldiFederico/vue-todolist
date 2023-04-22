@@ -33,4 +33,6 @@ main {
     padding: 0;
  }
 
- 
+ p {
+    cursor: pointer;
+ }
